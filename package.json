@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^5.2.2",
-    "flag-icon-css": "^4.1.7",
+    "flag-icons": "^6.6.6",
     "i18next": "^21.10.0",
     "i18next-browser-languagedetector": "^6.1.6",
     "i18next-http-backend": "^1.4.4",
