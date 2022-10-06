@@ -21,7 +21,7 @@ i18n
     debug: false,
     // Options for language detector
     detection: {
-      order: ['path', 'cookie', 'htmlTag', 'localStorage', , 'subdomain'],
+      order: ['path', 'cookie', 'htmlTag', 'localStorage', 'subdomain'],
       caches: ['cookie']
     },
     backend: {
