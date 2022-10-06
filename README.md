@@ -10,4 +10,5 @@ npm install i18next-http-backend
 npm i bootstrap@5.2.2
 npm i react-icons
 npm i flag-icons
+npm i js-cookie
 ```
