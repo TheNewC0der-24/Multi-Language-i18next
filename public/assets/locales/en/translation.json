@@ -1,6 +1,8 @@
 {
-  "app_title": "Title",
+  "app_title": "Multi Language application",
   "language": "Language",
   "welcome_message": "Welcome",
+  "about": "I am Bhavya Khurana, and I'm a Web Developer from Jaypee University of Engineering and Technology, Guna, India. I am in my final year of my bachelors program, majoring in Computer Science. Furthermore, I have been working on web based development project with frontend and backend related tech like ReactJS, mongoDB, expressJS & nodeJS. I am constantly working on improving my skill as a software engineer. I am an incessant learner and a keen observer. Always ready to learn something new and enjoy bringing new ideas to life. I believe everything is an Art when we put our consciousness. I'm on track to learning more about Web-Development, C++, Python, and JavaScript.",
+  "about_sm": "Open to Opportunities related to Web Development.",
   "days_since_release": "it's been {{number_of_days}} days since this application was released"
 }

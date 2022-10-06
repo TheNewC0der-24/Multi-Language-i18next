@@ -1,6 +1,8 @@
 {
-  "app_title": "Titre",
+  "app_title": "Application multilingue",
   "language": "Langue",
   "welcome_message": "Bienvenue",
+  "about": "Je m'appelle Bhavya Khurana et je suis développeur Web de l'Université d'ingénierie et de technologie de Jaypee, Guna, Inde. Je suis dans ma dernière année de mon programme de licence, avec une spécialisation en informatique. De plus, j'ai travaillé sur un projet de développement basé sur le Web avec des technologies liées au frontend et au backend comme ReactJS, mongoDB, expressJS et nodeJS. Je travaille constamment à l'amélioration de mes compétences en tant qu'ingénieur logiciel. Je suis un apprenant incessant et un observateur attentif. Toujours prêt à apprendre quelque chose de nouveau et à donner vie à de nouvelles idées. Je crois que tout est un Art lorsque nous mettons notre conscience. Je suis sur la bonne voie pour en apprendre davantage sur le développement Web, C++, Python et JavaScript.",
+  "about_sm": "Ouvert aux opportunités liées au développement Web.",
   "days_since_release": "ça fait {{number_of_days}} jours depuis la sortie de cette application"
 }
