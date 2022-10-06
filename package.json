@@ -8,6 +8,7 @@
     "i18next": "^21.10.0",
     "i18next-browser-languagedetector": "^6.1.6",
     "i18next-http-backend": "^1.4.4",
+    "js-cookie": "^3.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-i18next": "^11.18.6",
