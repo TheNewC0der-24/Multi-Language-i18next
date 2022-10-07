@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
@@ -29,14 +29,19 @@ i18n
     backend: {
       loadPath: '/assets/locales/{{lng}}/translation.json'
     },
-    react: {
-      useSuspense: false
-    }
   });
 
+const loading = (
+  <div className='p-5 text-center'>
+    <h2>Loading...</h2>
+  </div>
+)
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Suspense fallback={loading}>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Suspense>,
   document.getElementById('root')
 );
