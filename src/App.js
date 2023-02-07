@@ -50,29 +50,30 @@ function App() {
   return (
     <>
       <nav className="navbar navbar-expand-lg shadow bg-light">
-        <div className="container-fluid">
+        <div className="container">
           <div className="navbar-brand"><ImNpm className="fs-4 me-2" />i18next</div>
-          <div className="container d-flex justify-content-end me-auto">
-            <div className="dropdown" style={{ marginRight: "5rem" }}>
-              <div className="dropdown-toggle" style={{ cursor: "pointer" }} data-bs-toggle="dropdown" aria-expanded="false">
-                <GrLanguage className="fs-4" />
-              </div>
-              <ul className='dropdown-menu'>
-                <li>
-                  <span className="dropdown-item-text">{t('language')}</span>
-                </li>
-                <li><hr className="dropdown-divider" /></li>
-                {languages.map(({ code, name, country_code }) => (
-                  <li key={country_code}>
-                    <button className="dropdown-item" onClick={() => i18next.changeLanguage(code)} disabled={code === currentLanguageCode}>
-                      <span className={`fi fi-${country_code} mx-2`} style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}></span>
-                      {name}
-                    </button>
-                  </li>
-                ))}
-              </ul>
+          <div className="dropdown dropstart">
+            <div className="dropdown-toggle" style={{ cursor: "pointer" }} data-bs-toggle="dropdown" aria-expanded="false">
+              <GrLanguage className="fs-4" />
             </div>
+            <ul className='dropdown-menu'>
+              <li>
+                <span className="dropdown-item-text">{t('language')}</span>
+              </li>
+              <li><hr className="dropdown-divider" /></li>
+              {languages.map(({ code, name, country_code }) => (
+                <li key={country_code}>
+                  <button className="dropdown-item" onClick={() => i18next.changeLanguage(code)} disabled={code === currentLanguageCode}>
+                    <span className={`fi fi-${country_code} mx-2`} style={{ opacity: code === currentLanguageCode ? 0.5 : 1 }}></span>
+                    {name}
+                  </button>
+                </li>
+              ))}
+            </ul>
           </div>
+          {/* <div className="container d-flex justify-content-end me-auto">
+
+          </div> */}
         </div>
       </nav>
       <div className="alert mt-5" style={{ backgroundColor: "#f2eafe", color: "#6d2ae2" }} role="alert">
