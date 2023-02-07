@@ -71,9 +71,6 @@ function App() {
               ))}
             </ul>
           </div>
-          {/* <div className="container d-flex justify-content-end me-auto">
-
-          </div> */}
         </div>
       </nav>
       <div className="alert mt-5" style={{ backgroundColor: "#f2eafe", color: "#6d2ae2" }} role="alert">
